@@ -53,4 +53,9 @@
     border-radius: 0.5rem;
     background: var(--red-300);
     color: var(--white);
+    transition-duration: 0.4s;
+}
+
+.loginInfo button:hover {
+    background: var(--red-200);
 }

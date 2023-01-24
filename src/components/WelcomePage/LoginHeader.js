@@ -10,9 +10,9 @@ export function LoginHeader(){
                 <img src={ sidebar_icon } alt='Sidebar icon'/>
             </div>
 
-            <div className={ styles.logo }>
+            <Link to='/' className={ styles.logo }>
                 <img src={ logo } alt='Blaze Assistant logo'/>
-            </div>
+            </Link>
 
             <Link to='/dashboard' className={ styles.loginInfo }>
                 <p>Entrar</p>

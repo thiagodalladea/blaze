@@ -11,9 +11,9 @@ export function DashboardHeader(){
                 <img src={ sidebar_icon } alt='Sidebar icon'/>
             </div>
 
-            <div className={ styles.logo }>
+            <Link to='/dashboard' className={ styles.logo }>
                 <img src={ logo } alt='Blaze Assistant logo'/>
-            </div>
+            </Link>
 
             <Link to='/profile' className={ styles.profileIcon }>
                 <img src={ profile_icon } alt='Blaze Assistant logo'/>
